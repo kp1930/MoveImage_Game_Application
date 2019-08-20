@@ -1,4 +1,4 @@
-package theblackdiamonds.com;
+package com.theblackdiamonds;
 
 import android.annotation.SuppressLint;
 import android.graphics.Point;
