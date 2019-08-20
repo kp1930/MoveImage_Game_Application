@@ -10,32 +10,40 @@
         android:id="@+id/arrowUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/up" />
+        android:contentDescription="@string/down"
+        android:src="@drawable/up"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/arrowDown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/down" />
+        android:contentDescription="@string/down"
+        android:src="@drawable/down"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/arrowRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/right" />
+        android:contentDescription="@string/right"
+        android:src="@drawable/right"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/arrowLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/left" />
+        android:contentDescription="@string/left"
+        android:src="@drawable/left"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/pauseBtn"
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:onClick="pausePushed"
-        android:text="PAUSE"
+        android:text="@string/pause"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

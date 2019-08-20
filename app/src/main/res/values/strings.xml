@@ -1,5 +1,9 @@
 <resources>
 
     <string name="app_name">Move Image</string>
+    <string name="pause">PAUSE</string>
+    <string name="left">TODO</string>
+    <string name="right">TODO</string>
+    <string name="down">TODO</string>
 
 </resources>
